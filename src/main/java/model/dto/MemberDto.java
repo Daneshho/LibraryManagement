@@ -12,7 +12,6 @@ import java.util.Date;
 @AllArgsConstructor
 public class MemberDto {
 
-
     private String name;
     private String nationalCode;
     private Date dateOfBirth;

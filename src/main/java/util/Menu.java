@@ -27,5 +27,4 @@ public class Menu {
         int mount = Integer.parseInt(split[1]) - 1;
         return new Date(year, mount, Integer.parseInt(split[2]));
     }
-
 }

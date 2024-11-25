@@ -21,9 +21,13 @@ public class Book extends BaseEntity {
     @Column(name = "title")
     private String title;
 
+    @Column(name = "category")
+    private String category;
+
     @ManyToMany
     private List<Member> member = new ArrayList<>();
 
     @ManyToOne
     private Librarian librarian;
+
 }
